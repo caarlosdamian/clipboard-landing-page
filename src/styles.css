@@ -1,4 +1,3 @@
-
 :root {
     /* ### Primary */
 
@@ -12,19 +11,118 @@
 
     /* ### Fonts */
 
-    --font-family: 'Bai Jamjuree', sans-serif;
+    --font-family: "Bai Jamjuree", sans-serif;
     --font-weight-400: 400;
     --font-weight-400: 600;
     --font-size: 18px;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font-family);
 }
 
-body{
-    background: #F2F2F2;
+body {
+    background: #f2f2f2;
     height: 100%;
+    position: relative;
+}
+
+.bg-top {
+    position: absolute;
+    top: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 125px 32px;
+    gap: 64px;
+}
+
+.header-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.header-title {
+    font-family: "Bai Jamjuree" semi-bold;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.521739px;
+    color: #4c545c;
+    text-indent: 10px;
+}
+
+.header-subtitle {
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    color: #9eabb2;
+}
+
+.header-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.btn {
+    border-radius: 28px;
+    font-family: "Bai Jamjuree" semi-bold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    padding: 13px;
+    border: none;
+    min-width: 311px;
+    cursor: pointer;
+}
+
+.primary {
+    background: var(--strong-cyan);
+    box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305),
+        inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+.primary:hover {
+    background: #26bba5ab;
+}
+
+.secondary {
+    background: var(--light-blue);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035),
+        inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+.secondary:hover {
+    background: #6173ffaf;
+}
+
+.apps-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 46px;
 }
