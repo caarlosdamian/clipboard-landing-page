@@ -119,10 +119,115 @@ header {
     background: #6173ffaf;
 }
 
-.apps-container{
+
+.hero-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 56px;
+    padding: 65px 32px 186px 32px;
+    height: 100%;
+    width: 100%;
+
+}
+
+.hero-bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    gap: 54px;
+}
+
+.hero-left-container {
+    height: 100%;
+    width: 100%;
+}
+
+.hero-img {
+    background: url("/images/image-computer.png") no-repeat;
+    height: 238px;
+    width: 100%;
+    object-fit: cover;
+    background-size: 100% 238px;
+}
+
+.apps-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 46px;
+}
+
+.hero-right-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.hero-title {
+    font-family: "Bai Jamjuree" semi-bold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.391304px;
+    color: #4C545C;
+}
+
+.description-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 32px;
+    gap: 64px;
+}
+
+.description-img {
+    background: url("/images/image-devices.png") no-repeat;
+    width: 100%;
+    height: 182px;
+    object-fit: cover;
+    background-size: 311px 182px;
+}
+
+.feature-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 90px;
+    padding: 130px 32px;
+}
+.feature-grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 56px;
+}
+.grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.partners-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 170px;
 }
